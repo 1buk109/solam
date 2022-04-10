@@ -1,6 +1,6 @@
 - 実行環境にあった docker desktop app がインストールされていることを確認すること. インストールされていない場合は下記公式ページからインストールする必要がある.
-  （Make sure that docker desktop app is installed in your environment. If not, you need to install it from the following official page.）
-      [https://docs.docker.com/engine/install/#server](https://docs.docker.com/engine/install/#server)
+  （Make sure that docker desktop app is installed in your environment. If not, you need to install it from the following official page.）. 
+[https://docs.docker.com/engine/install/#server](https://docs.docker.com/engine/install/#server)
 
 ## docker image 作成・コンテナ起動
 
