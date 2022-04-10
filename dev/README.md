@@ -33,5 +33,5 @@ ccad5ebd3548   dev_web    "python manage.py ru…"   2 hours ago   Up 2 hours   
 
 3. 【**django 環境の確認**】
 
-- `[http://localhost:8000/](http://localhost:8000/)`にアクセスし、django が立ち上がっていることを確認する.
+- `http://localhost:8000/`にアクセスし、django が立ち上がっていることを確認する.
   （Go to http://localhost:8000/ and make sure django is up and running. ）
