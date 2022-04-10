@@ -36,3 +36,9 @@ ccad5ebd3548   dev_web    "python manage.py ru…"   2 hours ago   Up 2 hours   
 
 - `http://localhost:8000/`にアクセスし、django が立ち上がっていることを確認する.
   （Go to http://localhost:8000/ and make sure django is up and running. ）
+  
+## docker container 停止
+- containerを停止するときは下記コマンドを実行. （can stop container with following command）
+```bash
+$ docker-compose up
+```
