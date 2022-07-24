@@ -1,3 +1,4 @@
+import argparse
 import csv
 import datetime as dt
 import json
@@ -61,11 +62,15 @@ def parse_log_file_to_csv(log_file_path, csv_file_path):
         writer.writeheader()
         writer.writerows(processmining_elements)
 
-def main():
-    # 実行環境に合わせてpathは適宜修正
-    PATH_TO_DATA = '../data/serverlog_20220719.txt'
-    CSV_FILE_PATH = '../data/serverlog_20220719.csv'
-    parse_log_file_to_csv(PATH_TO_DATA, CSV_FILE_PATH)
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-i', '--file_path', type=str, required=True, help='The path of raw server logs file. (require list of jsons format with .txt).')
+    parser.add_argument('-o', '--save_path', type=str, required=True, help='The path to save parsed csv data.')
+    return parser.parse_args()
+
+def main(file_path, save_path):
+    parse_log_file_to_csv(file_path, save_path)
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    main(args.file_path, args.save_path)
