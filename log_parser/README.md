@@ -32,6 +32,10 @@
       - demo command（log_parser 直下で下記コマンドを実行）  
         `python3 parsers/pm_log_parser.py -i data/1_server_log_20220728.csv -o 2_server_log_20220728.csv`
 
+## メインスクリプトの説明
+
+### サーバーログパーサー ラッパー
+
 - **server_log_wrapper.py**
   - server_log_parser.py と pm_log_parser.py をラップするスクリプト.
   - tcpdump の出力 txt ファイル（0*）を入力として受け取り、csv 変換（1*）と PM 用 csv データ（2\_）を同時に作成.
