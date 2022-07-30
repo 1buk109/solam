@@ -1,0 +1,591 @@
+timestamp,client_ip,server_ip,http_referer,http_request_url,html
+2022-7-27 15:54:58.549423,10.19.12.245,10.19.11.215,,http://10.19.11.215:8888/index.html,
+2022-7-27 15:54:58.550095,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:54:58.550211,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/index.html,"<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hello world!
+    </h1>
+    <button>
+        <a href=""pages/page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""pages/page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""pages/page3.html"">page3</a>
+    </button>
+<!DOCTYPE html>
+</body>
+</html>"
+2022-7-27 15:54:58.571260,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 15:54:58.572039,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:54:58.572111,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
+2022-7-27 15:55:9.363072,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 15:55:9.363710,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:55:9.363822,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 15:55:15.10539,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page1.html,http://10.19.11.215:8888/pages/page2.html,
+2022-7-27 15:55:15.11151,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:55:15.11287,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page2.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page3</title>
+</head>
+<body>
+    <h1>page2</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 15:55:19.299285,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page2.html,http://10.19.11.215:8888/pages/page3.html,
+2022-7-27 15:55:19.299867,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:55:19.299979,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page3.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page3</title>
+</head>
+<body>
+    <h1>page3</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 15:57:24.974007,10.19.12.245,10.19.11.215,,http://10.19.11.215:8888/index.html,
+2022-7-27 15:57:24.974635,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:57:24.974753,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/index.html,"<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hello world!
+    </h1>
+    <button>
+        <a href=""pages/page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""pages/page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""pages/page3.html"">page3</a>
+    </button>
+<!DOCTYPE html>
+</body>
+</html>"
+2022-7-27 15:57:25.2503,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 15:57:25.3041,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:57:25.3115,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
+2022-7-27 15:57:28.812289,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 15:57:28.813003,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:57:28.813129,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 15:57:33.140660,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page1.html,http://10.19.11.215:8888/pages/page2.html,
+2022-7-27 15:57:33.141273,10.19.11.215,10.19.12.245,,,
+2022-7-27 15:57:33.141404,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page2.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page3</title>
+</head>
+<body>
+    <h1>page2</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:1:22.135806,10.19.12.245,10.19.11.215,,http://10.19.11.215:8888/index.html,
+2022-7-27 16:1:22.136272,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:1:22.136366,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/index.html,"<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hello world!
+    </h1>
+    <button>
+        <a href=""pages/page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""pages/page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""pages/page3.html"">page3</a>
+    </button>
+<!DOCTYPE html>
+</body>
+</html>"
+2022-7-27 16:1:22.158295,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 16:1:22.158899,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:1:22.158957,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
+2022-7-27 16:1:26.951635,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 16:1:26.952332,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:1:26.952480,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:4:9.218730,10.19.12.245,10.19.11.215,,http://10.19.11.215:8888/index.html,
+2022-7-27 16:4:9.219292,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:4:9.219405,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/index.html,"<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hello world!
+    </h1>
+    <button>
+        <a href=""pages/page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""pages/page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""pages/page3.html"">page3</a>
+    </button>
+<!DOCTYPE html>
+</body>
+</html>"
+2022-7-27 16:4:9.243420,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 16:4:9.244127,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:4:9.244199,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
+2022-7-27 16:4:13.370421,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 16:4:13.371083,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:4:13.371205,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:4:16.667466,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page1.html,http://10.19.11.215:8888/pages/page2.html,
+2022-7-27 16:4:16.668778,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:4:16.668910,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page2.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page3</title>
+</head>
+<body>
+    <h1>page2</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:6:4.713079,10.19.12.245,10.19.11.215,,http://10.19.11.215:8888/index.html,
+2022-7-27 16:6:4.713691,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:4.713807,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/index.html,"<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        hello world!
+    </h1>
+    <button>
+        <a href=""pages/page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""pages/page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""pages/page3.html"">page3</a>
+    </button>
+<!DOCTYPE html>
+</body>
+</html>"
+2022-7-27 16:6:4.734989,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 16:6:4.735761,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:4.735841,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
+2022-7-27 16:6:9.406191,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/index.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 16:6:9.406733,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:9.406832,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:6:13.836480,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page1.html,http://10.19.11.215:8888/pages/page2.html,
+2022-7-27 16:6:13.837067,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:13.837240,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page2.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page3</title>
+</head>
+<body>
+    <h1>page2</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page1.html"">page1</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:6:21.487903,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page2.html,http://10.19.11.215:8888/pages/page1.html,
+2022-7-27 16:6:21.488434,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:21.488537,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/pages/page1.html,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta http-equiv=""X-UA-Compatible"" content=""IE=edge"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>page1</title>
+</head>
+<body>
+    <h1>page1</h1>
+    <input type=""button"" value=""������"" id=""btnBack"">
+    <button>
+        <a href=""page2.html"">page2</a>
+    </button>
+    <button>
+        <a href=""page3.html"">page3</a>
+    </button>
+
+    <script>
+        let btnBack = document.getElementById('btnBack');
+        btnBack.addEventListener('click', function(){
+            history.back();
+        });
+        
+        let btnForward = document.getElementById('btnForward');
+        btnForward.addEventListener('click', function(){
+            history.forward();
+        });
+    </script>
+</body>
+</html>"
+2022-7-27 16:6:21.525011,10.19.12.245,10.19.11.215,http://10.19.11.215:8888/pages/page1.html,http://10.19.11.215:8888/favicon.ico,
+2022-7-27 16:6:21.525742,10.19.11.215,10.19.12.245,,,
+2022-7-27 16:6:21.525809,10.19.11.215,10.19.12.245,,http://10.19.11.215:8888/favicon.ico,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01//EN""
+        ""http://www.w3.org/TR/html4/strict.dtd"">
+<html>
+    <head>
+        <meta http-equiv=""Content-Type"" content=""text/html;charset=utf-8"">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: HTTPStatus.NOT_FOUND - Nothing matches the given URI.</p>
+    </body>
+</html>
+"
